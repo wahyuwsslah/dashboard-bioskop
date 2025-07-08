@@ -9,8 +9,8 @@ try:
     conn = psycopg2.connect(
         database="sistem_bioskop1",
         user="postgres",
-        password="12345",
-  host="postgresql://postgres:NUHNUwEkZJrPHlklGDjAvhzYozOKHTZr@nozomi.proxy.rlwy.net:10221/railway",
+        password="NUHNUwEkZJrPHlklGDjAvhzYozOKHTZr",
+  	host="nozomi.proxy.rlwy.net",
         port="5432"
     )
     cursor = conn.cursor()
