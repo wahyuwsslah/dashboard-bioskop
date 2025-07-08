@@ -11,7 +11,7 @@ try:
         user="postgres",
         password="NUHNUwEkZJrPHlklGDjAvhzYozOKHTZr",
   	host="nozomi.proxy.rlwy.net",
-        port="5432"
+        port="10221"
     )
     cursor = conn.cursor()
 except Error as e:
