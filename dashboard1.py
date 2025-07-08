@@ -7,7 +7,7 @@ from psycopg2 import Error
 # Koneksi ke PostgreSQL
 try:
     conn = psycopg2.connect(
-        database="sistem_bioskop1",
+        database="railway",
         user="postgres",
         password="NUHNUwEkZJrPHlklGDjAvhzYozOKHTZr",
   	host="nozomi.proxy.rlwy.net",
