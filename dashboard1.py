@@ -10,7 +10,7 @@ try:
         database="sistem_bioskop1",
         user="postgres",
         password="12345",
-        host="localhost",
+  host="postgresql://postgres:NUHNUwEkZJrPHlklGDjAvhzYozOKHTZr@nozomi.proxy.rlwy.net:10221/railway",
         port="5432"
     )
     cursor = conn.cursor()
